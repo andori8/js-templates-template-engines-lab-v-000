@@ -5,7 +5,7 @@
   </head>
   <body>
     <main>
-      <form id="post-form" onsubmit="postComment();return false;">
+      <form id="post-form" onsubmit="createPost();return false;">
         Title: <input type="text" id="postTitle"><br>
         Author: <input type="text" id="postAuthor"><br>
         Body: <input type="text" id="postBody"><br>
@@ -30,7 +30,9 @@
     </script>
 
     <script id="comments-template" type="text/x-lodash-template">
-
+      <div id="comments">
+        <form
+      </div>
     </script>
 
     <!-- Open this file and call `mocha.run()` in console to run tests -->
